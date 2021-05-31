@@ -1,0 +1,74 @@
+/* Big Tablet to 1200*/
+@media (max-width:1200px){
+    html{
+        font-size:18px
+    }
+    .hero-text-box{
+        width:100%;
+        font-size:17px;
+        padding: 0 2% ;
+    }
+    .row{padding: 0 2%;}
+}
+
+/* small tablet to big tablet: from 768 to 1023px*/
+@media(max-width:1023px){
+    .hero-text-box{
+        width:100%;
+        font-size:15px;
+        padding: 0 2% ;
+    }
+
+}
+
+/* small phone to small tablet: from 480 - 768px */
+@media(max-width:768px){
+    html{
+        font-size:11px;
+    }
+    .hero-text-box{
+        font-size:12px;
+        padding: 0 2% ;
+    }
+    .row{padding: 0 2%;}
+    .works-step div{
+        height:33px;
+        width: 33px;
+        font-size: 120%;
+        margin-right: 20px;
+    }
+    .btn-app img{
+        height:30px;
+        width:auto;
+        margin-right:10px;
+    }
+}
+
+/*small phone from 0 - 480 px */
+@media(max-width:480px){
+    body{font-size:10px;}
+    section{padding:30px,0;}
+    .row,
+    .hero-text-box{padding: 0 4% ;}
+    .col{
+        width:100%;
+        margin:1% 0 1% 1.6%;
+    }
+    .main-nav{
+        display:none;
+    }
+    
+    .app-screen{
+        width:30%;
+    }
+    .steps-box:first-child{text-align:center;}
+    .works-step div{
+        height: 20px;
+        width:20px;
+        margin-right:10px;
+        padding:2px;
+        font-size:100%;
+    }
+    .work-step{margin-bottom:20px;}
+    .work-step:last-of-type{margin-bottom: 20px;}
+}
